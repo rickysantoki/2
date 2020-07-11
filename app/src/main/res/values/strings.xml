@@ -1,0 +1,11 @@
+
+<resources>
+    <string name="condition_prompt">Choose a condition</string>
+    <string name="app_name">CowLogs</string>
+
+    <string-array name="Condition_type">
+        <item>Poor</item>
+        <item>Average</item>
+        <item>Good</item>
+    </string-array>
+</resources>

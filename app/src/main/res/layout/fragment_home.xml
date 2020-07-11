@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_gravity="center"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:tag="0"
+            android:onClick="showCowPage"
+            tools:ignore="HardcodedText"
+            android:text="ANGUS"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:onClick="showCowPage"
+            android:tag="1"
+            android:text="HEREFORD" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:tag="2"
+            android:onClick="showCowPage"
+            android:text="BRAHMAN"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:onClick="showCowPage"
+            tools:ignore="HardcodedText"
+            android:tag="3"
+            android:text="SHORTHORN" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:onClick="showCowPage"
+            tools:ignore="HardcodedText"
+            android:tag="4"
+            android:text="BRANGUS" />
+    </LinearLayout>
+
+</RelativeLayout>
